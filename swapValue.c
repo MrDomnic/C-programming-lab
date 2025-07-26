@@ -15,7 +15,7 @@ void swapRef(int*a,int*b)
 {
     int temp;
     temp = *a;
-    a* = b*;
+    *a = *b;
     *b = temp;
     //swaps actual variables using pointers
 }
